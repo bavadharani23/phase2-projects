@@ -1,0 +1,45 @@
+package com;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Course {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int cid;
+	private String cname;
+	private float fees;
+	private Integer scid;
+	@Override
+	public String toString() {
+		return "Course [cid=" + cid + ", cname=" + cname + ", fees=" + fees + ", scid=" + scid + "]";
+	}
+	public int getCid() {
+		return cid;
+	}
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+	public String getCname() {
+		return cname;
+	}
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+	public float getFees() {
+		return fees;
+	}
+	public void setFees(float fees) {
+		this.fees = fees;
+	}
+	public Integer getScid() {
+		return scid;
+	}
+	public void setScid(Integer scid) {
+		this.scid = scid;
+	}
+
+}

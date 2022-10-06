@@ -1,0 +1,12 @@
+127.0.0.1 - - [10/Aug/2022:10:21:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:10:21:22 +0530] "GET /ProductDetails/Details.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:10:21:22 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:10:21:29 +0530] "POST /ProductDetails/Product HTTP/1.1" 200 92
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:10:22:01 +0530] "POST /ProductDetails/Product HTTP/1.1" 200 95
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:10:26:39 +0530] "GET /ProductDetails/Details.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:10:26:44 +0530] "POST /ProductDetails/Product HTTP/1.1" 200 99
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:10:32:58 +0530] "POST /ProductDetails/Product HTTP/1.1" 200 98
+127.0.0.1 - - [10/Aug/2022:17:00:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:17:00:08 +0530] "GET /JSPExamples/login.jsp HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:17:00:29 +0530] "POST /JSPExamples/check.jsp HTTP/1.1" 200 170
+0:0:0:0:0:0:0:1 - - [10/Aug/2022:17:00:29 +0530] "POST /JSPExamples/check.jsp HTTP/1.1" 200 170
